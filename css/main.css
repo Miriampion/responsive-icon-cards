@@ -21,9 +21,21 @@ h2,
 p {
   margin: 0;
 }
- ul {
+
+.card-body h2 {
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+.card-body p {
+  margin-bottom: 1rem;
+}
+
+ul {
   list-style: none;
+  padding: .5rem;
  }
+
 .card-img img {
   width: 50px;
   display: block;
